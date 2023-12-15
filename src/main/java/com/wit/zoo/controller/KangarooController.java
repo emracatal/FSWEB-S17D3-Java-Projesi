@@ -17,6 +17,7 @@ public class KangarooController {
     @PostConstruct
     public void init() {
         kangaroos = new HashMap<>();
+        System.out.println("kangaroos says hi");
     }
 
     @PostMapping("/")
